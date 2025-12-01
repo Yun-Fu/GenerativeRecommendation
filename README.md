@@ -5,7 +5,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2507.22224-b31b1b.svg)](https://arxiv.org/abs/2507.22224)
 
 This repository is based on the paper: Generative Recommendation with Semantic IDs (GRID). This project implements novel approaches for learning semantic IDs from text embedding and generating recommendations through transformer-based generative models.
-The official implementation of GRID is ![here](https://github.com/snap-research/GRID/blob/main/README.md)
+The official implementation of GRID is [here](https://github.com/snap-research/GRID/blob/main/README.md)
 
 
 ## 🚀 Overview
