@@ -5,6 +5,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2507.22224-b31b1b.svg)](https://arxiv.org/abs/2507.22224)
 
 This repository is based on the paper: Generative Recommendation with Semantic IDs (GRID). This project implements novel approaches for learning semantic IDs from text embedding and generating recommendations through transformer-based generative models.
+The official implementation of GRID is ![here](https://github.com/snap-research/GRID/blob/main/README.md)
 
 
 ## 🚀 Overview
@@ -118,17 +119,8 @@ python -m src.inference experiment=tiger_inference_flat \
 
 1. TIGER [1]
 
-## 📚 Citation
-
-If you use GRID in your research, please cite:
-
-```bibtex
-@inproceedings{grid,
-  title     = {Generative Recommendation with Semantic IDs: A Practitioner's Handbook},
-  author    = {Ju, Clark Mingxuan and Collins, Liam and Neves, Leonardo and Kumar, Bhuvesh and Wang, Louis Yufeng and Zhao, Tong and Shah, Neil},
-  booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM)},
-  year      = {2025}
-}
-```
-
+## Bibliography
+[1] Rajput, Shashank, et al. "Recommender systems with generative retrieval." Advances in Neural Information Processing Systems 36 (2023): 10299-10315.
+[2] Deng, Jiaxin, et al. "Onerec: Unifying retrieve and rank with generative recommender and iterative preference alignment." arXiv preprint arXiv:2502.18965 (2025).
+[3] Lee, Doyup, et al. "Autoregressive image generation using residual quantization." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022.
 [4] Geng, Shijie, et al. "Recommendation as language processing (rlp): A unified pretrain, personalized prompt & predict paradigm (p5)." Proceedings of the 16th ACM conference on recommender systems. 2022.
