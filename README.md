@@ -1,11 +1,11 @@
-# Generative Recommendation with Semantic IDs (GRID)
+# Generative Recommendation
 [![PyTorch](https://img.shields.io/badge/pytorch-2.0%2B-red)](https://pytorch.org/)
 [![Hydra](https://img.shields.io/badge/config-hydra-89b8cd)](https://hydra.cc/)
 [![Lightning](https://img.shields.io/badge/pytorch-lightning-792ee5)](https://lightning.ai/)
 [![arXiv](https://img.shields.io/badge/arXiv-2507.22224-b31b1b.svg)](https://arxiv.org/abs/2507.22224)
 
+This repository is based on the paper: Generative Recommendation with Semantic IDs (GRID). This project implements novel approaches for learning semantic IDs from text embedding and generating recommendations through transformer-based generative models.
 
-**GRID** (Generative Recommendation with Semantic IDs) is a state-of-the-art framework for generative recommendation systems using semantic IDs, developed by a group of scientists and engineers from [Snap Research](https://research.snap.com/team/user-modeling-and-personalization.html). This project implements novel approaches for learning semantic IDs from text embedding and generating recommendations through transformer-based generative models.
 
 ## 🚀 Overview
 
@@ -130,26 +130,5 @@ If you use GRID in your research, please cite:
   year      = {2025}
 }
 ```
-
-## 🤝 Acknowledgments
-
-- Built with [PyTorch](https://pytorch.org/) and [PyTorch Lightning](https://lightning.ai/)
-- Configuration management by [Hydra](https://hydra.cc/)
-- Inspired by recent advances in generative AI and recommendation systems
-- Part of this repo is built on top of https://github.com/ashleve/lightning-hydra-template
-
-## 📞 Contact
-
-For questions and support:
-- Create an issue on GitHub
-- Contact the development team: Clark Mingxuan Ju (mju@snap.com), Liam Collins (lcollins2@snap.com), and Leonardo Neves (lneves@snap.com).
-
-## Bibliography 
-
-[1] Rajput, Shashank, et al. "Recommender systems with generative retrieval." Advances in Neural Information Processing Systems 36 (2023): 10299-10315.
-
-[2] Deng, Jiaxin, et al. "Onerec: Unifying retrieve and rank with generative recommender and iterative preference alignment." arXiv preprint arXiv:2502.18965 (2025).
-
-[3] Lee, Doyup, et al. "Autoregressive image generation using residual quantization." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022.
 
 [4] Geng, Shijie, et al. "Recommendation as language processing (rlp): A unified pretrain, personalized prompt & predict paradigm (p5)." Proceedings of the 16th ACM conference on recommender systems. 2022.
